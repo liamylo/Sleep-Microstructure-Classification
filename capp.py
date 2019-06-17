@@ -16,8 +16,8 @@ from imblearn.over_sampling import SMOTE
 import tensorflow as tf
 from tensorflow.python.keras.utils import np_utils
 
-from scripts import dataset, models, plots, signals
-from scripts import labels as labels_script
+import dataset, models, plots, signals
+import labels as labels_script
 
 
 def setup():
